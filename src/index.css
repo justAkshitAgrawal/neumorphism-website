@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      width: 0 !important;
+    }
+  }
+}
+
+@layer components {
+  .nav {
+    @apply nm-flat-gray-900 cursor-pointer px-3 rounded-xl py-1 hover:text-[#ff5733] transition-all font-semibold text-lg;
+  }
+  .active {
+    @apply nm-inset-gray-900 cursor-pointer px-3 rounded-xl py-1 text-[#ff5733] transition-all;
+  }
+}
