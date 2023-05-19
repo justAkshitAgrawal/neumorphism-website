@@ -31,17 +31,17 @@ function Hero() {
               href="https://www.linkedin.com/in/akshitagrwl/"
               target="_blank"
               rel="noreferrer"
-              className="p-2 nm-flat-gray-900 rounded-xl"
+              className="p-2 nm-flat-gray-900 rounded-xl active:nm-inset-gray-900 hover:text-[#ff5733]"
             >
-              <RxLinkedinLogo className=" h-7 w-7 hover:text-[#ff5733] transition-all cursor-pointer " />
+              <RxLinkedinLogo className="transition-all cursor-pointer h-7 w-7" />
             </a>
             <a
               href="https://github.com/justAkshitAgrawal"
               target="_blank"
               rel="noreferrer"
-              className="p-2 nm-flat-gray-900 rounded-xl"
+              className="p-2 nm-flat-gray-900 rounded-xl active:nm-inset-gray-900 hover:text-[#ff5733]"
             >
-              <RxGithubLogo className=" h-7 w-7 hover:text-[#ff5733] transition-all cursor-pointer" />
+              <RxGithubLogo className="transition-all cursor-pointer h-7 w-7" />
             </a>
           </div>
         </div>
