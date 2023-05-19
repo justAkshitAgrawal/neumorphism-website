@@ -20,14 +20,24 @@ function Nav() {
         </Link>
         <Link
           smooth={true}
+          offset={-50}
           spy={true}
-          to="about"
+          to="projects"
           activeClass="active"
           className="nav"
         >
-          About
+          Projects
         </Link>
-        {/* <Link className="nav"> Home</Link> */}
+        <Link
+          smooth={true}
+          offset={-50}
+          spy={true}
+          to="experience"
+          activeClass="active"
+          className="nav"
+        >
+          Experience
+        </Link>
       </div>
     </nav>
   );

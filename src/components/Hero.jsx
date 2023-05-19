@@ -13,14 +13,17 @@ function Hero() {
   const random = Math.floor(Math.random() * bioOptions.length);
 
   return (
-    <div id="home" className="flex items-center justify-center mt-10 ">
-      <div className="flex items-center space-x-20 p-36 nm-inset-gray-900 rounded-xl mt-14">
-        <div className="px-10 py-5 rounded-xl nm-flat-gray-900">
-          <h1 className="text-5xl font-bold">Akshit Agrawal</h1>
-          <h1 className="mt-1 text-2xl font-semibold text-[#E1B12C]">
+    <div
+      id="home"
+      className="z-20 flex items-center justify-center mt-5 sm:mt-10"
+    >
+      <div className="flex flex-col p-10 sm:space-x-20 sm:items-center sm:flex-row sm:p-36 nm-inset-gray-900 rounded-xl sm:mt-14 ">
+        <div className="order-2 px-10 py-5 text-center mt-7 rounded-xl nm-flat-gray-900 sm:order-1 sm:mt-0 sm:text-left">
+          <h1 className="text-2xl font-bold sm:text-5xl">Akshit Agrawal</h1>
+          <h1 className="mt-1 text-lg sm:text-2xl font-semibold text-[#E1B12C]">
             Front-End Developer
           </h1>
-          <h1 className="lg:max-w-[22vw] max-w-[80vw] mt-2 ">
+          <h1 className="lg:max-w-[25vw] sm:text-base text-sm max-w-[80vw] mt-2 ">
             {bioOptions[random]}
           </h1>
           <div className="flex items-center justify-center mt-3 space-x-4 lg:justify-start">
@@ -42,7 +45,7 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="wrap ">
+        <div className="order-1 wrap sm:order-2 ">
           <div className="outer ">
             <div className=" circle">
               <img src={akshitImg} alt="" className="bg-contain " />

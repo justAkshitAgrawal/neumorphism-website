@@ -4,9 +4,9 @@ import { TbBrandReactNative } from "react-icons/tb";
 
 function Skills() {
   return (
-    <div className="flex items-center justify-center">
-      <div className="flex items-center px-10 py-5 space-x-5 nm-inset-gray-900 rounded-xl mt-14">
-        <h1>
+    <div className="z-30 flex items-center justify-center">
+      <div className="flex items-center px-5 py-5 sm:px-10 sm:space-x-5 nm-inset-gray-900 rounded-xl mt-14">
+        <h1 className="hidden sm:block">
           Tech Stack <span className="ml-2">|</span>
         </h1>
         <div className="flex items-center space-x-4">
